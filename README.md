@@ -1,3 +1,2 @@
-# https://github.com/lingyuelianxin/StaticPages.git
-# https://lingyuelianxin.github.io/StaticPages/居中.html
-静态页面
+居中  https://lingyuelianxin.github.io/StaticPages/居中.html
+导航  https://lingyuelianxin.github.io/StaticPages/导航.html
