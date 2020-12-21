@@ -1,0 +1,136 @@
+/* 头部标题 */
+.book-gray{
+  height: 80px;
+
+  background: url(../img/headerbg.jpg);
+}
+.book-gray h1{
+  margin: 0 auto;
+  width: 1200px;
+  
+  color: #555555;
+  font-size: 45px;
+  font-weight: 200;
+  text-align: center;
+  line-height: 80px;
+}
+/* 图片 */
+.bookstr-imghead-box{
+  width: 1200px;
+  margin: 0 auto;
+}
+.bookstr-imghead {
+  width: 1200px;
+  height: auto;
+}
+/* body02 */
+.book-body02{
+  width: 1200px;
+  margin: 30px auto;
+}
+.book-body02-left {
+  float: left;
+  width: 180px;
+}
+.book-left-head{
+  padding-left: 18px;
+  height: 50px;
+
+  color: rgb(140, 34, 44);
+  line-height: 50px;
+}
+.book-left-head h1 {
+  font-weight: 500;
+}
+.book-body02-left-box {
+  padding-left: 18px;
+  border-bottom: #777777 1px solid;
+  width: 162px;
+  height: 60px;
+  transition: all 1s;
+}
+.book-body02-left-box span {
+  line-height: 60px;
+}
+.book-body02-left-box span a {
+  color: #555555;
+  text-decoration: none;
+}
+.book-body02-left-box span a:hover{
+  color: rgb(140, 34, 44);
+}
+.book-body02-right {
+  float: right;
+  width: 990px;
+}
+.book-input {
+  float: right;
+  border: 2px solid #777777;
+  margin: 10px 0;
+  width: 330px;
+  height: 28px;
+}
+.book-input input{
+  float: left;
+  border: none;
+  width: 270px;
+  
+  line-height: 28px;
+  text-indent: 2em;
+  
+}
+.book-input button {
+  float: left;
+  border: none;
+  width: 60px;
+  height: 28px;
+
+  background-color: white;
+}
+.bodyimg01,
+.bodyimg02 {
+  margin: 10px 0;
+  width: 100%;
+  height: auto;
+}
+.bookstr-body03 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.bookstr-body03-left {
+  width: 1200px;
+  margin: 10px auto;
+}
+.bookstr-body03-left-box{
+  float: left;
+  border: #555555 1px solid;
+  margin-right: 15px;
+  margin-top: 20px;
+  width: 388px;
+}
+.bookstr-body03-left-box:nth-of-type(3),
+.bookstr-body03-left-box:nth-of-type(6){
+  margin-right: 0px;
+}
+.bookstr-body03-left-box img{
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 200px;
+}
+.bookstr-body03-left-box p {
+  width: 300px;
+  height: 22px;
+  margin: 5px auto;
+  overflow: hidden;
+}
+.bookstr-body03-left-box p:last-child span:first-child{
+  color: rgb(140, 34, 44);
+}
+.bookstr-body03-left-box p a {
+  color: #333333;
+  text-decoration: none;
+}
+.bookstr-body03-left-box p a:hover{
+  color: rgb(140, 34, 44);
+}

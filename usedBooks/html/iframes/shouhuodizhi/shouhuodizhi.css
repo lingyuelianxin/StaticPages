@@ -1,0 +1,84 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.lianjie{
+  width: 100%;
+  height: 20px;
+  border-bottom: 1px solid rgb(117, 116, 117);
+}
+.lianjie p{
+  float: left;
+  font-size: 13px;
+}
+
+.lianjie p a{
+  text-decoration: none;
+}
+
+.biao{
+  margin-top: 20px;
+  width: 100%;
+  height: 140px;
+
+}
+
+.table1{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+ 
+}
+
+.table1 tr:nth-of-type(1){
+  height: 40px;
+
+}
+
+.table1 tr:nth-of-type(1) p{
+  width: 97%;
+  height: 37px;
+  margin: 0 auto;
+  line-height: 40px;
+  background: #E1EBFB;
+
+}
+.table1 tr td{
+  border: 1px solid rgb(190, 190, 190);
+}
+
+.table1 tr:nth-of-type(2){
+  height: 50px;
+
+}
+.table1 tr:nth-of-type(2) td:nth-of-type(8){
+  font-size: 14px;
+  color: #4F4499;
+}
+
+.table1 tr:nth-of-type(3){
+  height: 30px;
+  text-align: left;
+  text-indent: 10px;
+  font-size: 14px;
+  word-spacing: 10px;
+
+}
+input{
+  width: 12px;
+  height: 12px;
+ 
+
+}
+h1{
+  float: right;
+  font-size: 20px;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  background: #FF7F00;
+  border: 1px solid red;
+  color: rgb(253, 253, 253);
+}

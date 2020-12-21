@@ -1,0 +1,336 @@
+/* 头部设置 */
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+/* 消除浮动影响 */
+.clear::before,
+.clear::after{
+  display: table;
+  content: "";
+}
+.clear::after{
+  clear: both;
+}
+/* 取消a标签的下划线 */
+a{
+  text-decoration: none;
+}
+/* 总section的宽高及居中 */
+section{
+  position: absolute;
+  width: 960px;
+  height: 622px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 1px solid #AAAAAA;
+  box-shadow: 0px 0px 5px #333333;
+}
+/* 左边section设置 */
+.section_left{
+  width: 221px;
+  height: 620px;
+  float: left;
+  background: #579FC0;
+  position: relative;
+}
+/* 左边section的顶部 */
+.section_left_top{
+  width: 204px;
+  height: 40px;
+  margin: 20px 8px;
+  line-height: 40px;
+  color: #ffffff;
+}
+/* 左边section的顶部的图片 */
+.section_left_top img{
+  display: inline-block;
+  vertical-align: middle;
+}
+.section_left_top_one{
+  float: left;
+}
+.section_left_top_two{
+  float: left;
+  margin-left: 15px;
+}
+.section_left_top_three{
+  float: right;
+}
+.section_left_top_three img{
+  margin-left: 10px;
+}
+/* 左边section的顶部的第一张图片 */
+.section_left_top div:nth-of-type(1) img{
+  width: 40px;
+  height: 40px;
+}
+/* 左边section里面的表单 */
+.biaodan{
+  width: 200px;
+  margin: 0 10px;
+}
+/* 左边section表单里的图片 */
+.biaodan img{
+  position: absolute;
+  left:13px;
+  top: 86px;
+  width: 12px;
+  height: 12px;
+}
+/* 表单的input标签 */
+.section_left input{
+  text-indent: 25px;
+  width: 200px;
+  background: #468DB2;
+  border: none;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+/* 设置input标签的placeholder的颜色 */
+input::-webkit-input-placeholder{
+  color: #A3C6D9;
+  font-size: 12px;
+}
+/* 左边section的线段 */
+.section_left_xianduan{
+  border-top: 1px solid #A0C5D8;
+  width: 221px;
+}
+/* 切换 */
+.section_left_qiehuan{
+  width: 220px;
+  height: 38px;
+  position: relative;
+}
+input[type=radio] {
+  display: none;
+}
+input:checked+label { /* 选中单选框被选中的元素的下一个兄弟元素 label */
+  color: white;
+}
+.tab-body01 {
+  display: none;
+}
+input:checked~.tab-body01 { /* 选中单选框被选中的兄弟元素 .tab-body */
+  display: block;
+}
+.group{
+  width: 110px;
+  float: left;
+}
+.group label {
+  display: block;
+  width: 100%;
+  height: 38px;
+  text-align: center;
+  line-height:38px;
+  font-size: 12px;
+  color: #ABCFE0;
+  cursor: pointer;
+}
+.group .tab-body01{
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.tab-body01 img{
+  margin-top: 40px;
+}
+.tab-body01 p{
+  color: #ABCFE0;
+}
+/* 左边section的主体部分 */
+.section_left_main{
+  width: 220px;
+  height: 440px;
+  margin-top: 10px;
+}
+/* 左边section主体的第一位联系人 */
+.section_left_main_one{
+  width: 210px;
+  height: 50px;
+  background: #8ABCD3;
+  border-radius: 5px;
+  color: #333333;
+}
+/* 对话 */
+.section_left_main_one_duihua{
+  width: 160px;
+  height: 26px;
+  line-height: 26px;
+}
+/* 对话里面的图片 */
+.section_left_main_one_duihua img{
+  width: 26px;
+  height: 26px;
+  vertical-align: middle;
+  margin: 12px 10px;
+}
+.section_left_main_one_duihua span{
+  vertical-align:middle;
+}
+/* section的右边 */
+.section_right{
+  width: 737px;
+  height:619px;
+  float: left;
+  background: #F2F2F5;
+  position: relative;
+}
+/* 右边section的顶部 */
+.section_right_top{
+  font-size: 14px;
+  width: 737px;
+  height: 60px;
+  border-bottom: 1px solid #E4E4E9;
+  line-height: 60px;
+}
+.section_right_top p a{
+  color: #333333;
+  font-weight: bold;
+  margin:0 5px;
+}
+.section_right_top p span{
+  color: #BABFB9;
+  margin-right: 5px;
+}
+/* 右边section上部分的图片 */
+.section_right_top img{
+  float: right;
+  margin-top: 22px;
+  margin-right: 5px;
+}
+/* 右边section上面的第二个p标签 */
+.section_right_top .diera{
+  float: right;
+  margin-right: 20px;
+  color: #365899;
+}
+/* 右边section上面的第一个p标签 */
+.section_right_top p:nth-of-type(1){
+  float: left;
+  width: 200px;
+  text-align: center;
+  margin-left: 268.5px;
+}
+/* 右边section的第二个顶部 */
+.section_right_top2{
+  width: 637px;
+  height: 50px;
+  margin: 0 auto;
+  border-bottom: 1px dashed #E4E4E9;
+}
+/* 时间 */
+ .section_right_shijian{
+   position: absolute;
+   top: 102px;
+   left: 300px;
+   background: #F2F2F5;
+   color: #6B6B6B;
+   font-size: 12px;
+ }
+ /* 右边section的主体部分 */
+ .section_right_main{
+   width: 737px;
+   height: 350px;
+   margin-top: 30px;
+ }
+ /* 右边section主体部分的图片头像 */
+ .section_right_main img{
+   width: 30px;
+   height: 30px;
+   vertical-align: top;
+   margin-right: 20px;
+ }
+ /* 聊天内容 */
+ .liaotianneirong{
+   width: 552px;
+   height: 56px;
+   background: #ffffff;
+   display: inline-block;
+ }
+ /* 聊天内容里的p标签 */
+ .liaotianneirong p{
+   width: 530px;
+   height: 40px;
+   font-size: 14px;
+   text-indent: 20px;
+   margin: 8px 0;
+   vertical-align: top;
+ }
+ .liaotianneirong a{
+   color: #365899;
+ }
+ /* p标签里面的a标签的悬停效果*/
+ .liaotianneirong p a:hover{
+  color: #FF852C;
+ }
+ /* 右边section的底部 */
+ .section_right_bottom{
+   width: 737px;
+   height:127px;
+   background: #ffffff;
+ }
+ /* 右边section的底部的多行文本框 */
+ .section_right_bottom textarea{
+   width: 706px;
+   height: 56px;
+   margin:15px;
+   border:1px solid #F2F2F5;
+ }
+ .section_right_bottom .bottom_left{
+  float: left;
+}
+.section_right_bottom .bottom_right{
+  float: right;
+}
+ /* 右边section的底部的图片左外边距 */
+ .section_right_bottom .bottom_left img{
+   margin-left: 15px;
+ }
+ /* 右边底部左边的按钮 */
+ .section_right_bottom .bottom_left button{
+   width: 58px;
+   height: 19px;
+   margin-left: 20px;
+   font-size: 12px;
+   color: #5696AD;
+   border: 1px solid #5696AD;
+   border-radius: 10px;
+   vertical-align: middle;
+   background: #ffffff;
+ }
+ /* 右边底部的右边按钮 */
+ .section_right_bottom .bottom_right button{
+   border: 1px solid #338EB8;
+   background: #579FC0;
+   color: #ffffff;
+   width: 80px;
+   height: 20px;
+   vertical-align: middle;
+ }
+ .section_right_bottom .bottom_right button:nth-of-type(2){
+  width: 30px;
+  margin-right: 15px;
+  padding-right: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+.section_right_bottom .bottom_right button:nth-of-type(2) img{
+  margin-left: 6px;
+}
+ /* 右边底部的a标签 */
+ .section_right_bottom a{
+   font-size: 12px;
+   color: #7c7c7c;
+ }
+ .section_right_bottom img{
+   vertical-align: middle;
+ }

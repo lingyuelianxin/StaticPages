@@ -1,0 +1,262 @@
+.top_menu{
+  width: 100%;
+  height: 50px;
+  margin-top:0px;
+  background: #006699;
+  position: relative;
+}
+
+.top_menu ul li{
+  display: inline-block;
+  line-height: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding-right: 30px;
+}
+
+.top_menu ul{
+  display:inline-block;
+  padding: 0;
+  margin-left: 11%;
+}
+
+
+
+.sanjiao{
+  width:0px;
+  height: 0px;
+  display: inline-block;
+  border-top: none;
+  border-left:5px solid #00669900;
+  border-right: 5px solid rgba(244, 165, 96, 0);
+  border-bottom:7px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 43px;
+  left: 12.8%;
+  transition: all .3s;
+}
+
+
+/* 导航结束。。。。。。。。。。。。。。。。。。。。。。。 */
+
+/* 资金详情总览 */
+
+.z1{
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background: #F4F9FE;
+  border: 1px solid #B3CFEE;
+  position: relative;
+}
+
+/* 左边资料 */
+.ziliao{
+  width: 50%;
+  height: 100%;
+  border-right: 1px solid #B3CFEE;
+  overflow: hidden;
+  float: left;
+}
+
+.ziliao p{
+  margin-left: 20px;
+  line-height: 40px;
+  font-size:16px;
+  
+}
+
+.ziliao p:nth-of-type(1){
+  margin-top: 40px;
+  font-size: 25px;
+  letter-spacing: 40px;
+  font-weight: 600;
+}
+
+
+.ziliao div p:nth-of-type(1){
+  width: 90%;
+  border-top: 1px dotted #B3CFEE;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0px;
+ 
+}
+
+.ziliao div p img{
+  vertical-align: middle;
+}
+
+
+/* 右边金额详情 */
+
+.zijin{
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+
+
+/* 资金种类 */
+.zijin_zhonglei{
+  width: 150px;
+  height: 100%;
+  overflow: hidden;
+  margin-left: 40px;
+  float: left;
+}
+
+.zijin_zhonglei p{
+  font-size: 16px;
+  text-align: right;
+  line-height: 30px;
+}
+.zijin_zhonglei p:nth-of-type(1){
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+
+
+.zijin_jine p{
+  font-size: 16px;
+  text-align: left;
+  line-height: 30px;
+}
+.zijin_jine p:nth-of-type(1){
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.zijin_jine  p:nth-of-type(1) span{
+  color: #FD6600;
+  font-size: 24px;
+}
+
+.zijin_jine  p:nth-of-type(2)~p span{
+  color:#004499;
+
+}
+
+/* ............................................................................. */
+
+
+/*收入支出表 */
+
+.biao{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 640px;
+ 
+}
+
+ .biao h1{
+  width: 100%;
+  height: 30px;
+  border-bottom:3px solid #006699;
+}
+
+.table1{
+    margin-top: 5px;
+    width:100%;
+    height:163px;
+    border: none;
+    border-collapse: collapse;
+    padding: 0;
+    font-size: 15px;
+  
+     
+   
+}
+
+.table1 td{
+  border: none;
+border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.table1 td{
+  text-align: right;
+}
+
+.table1 tr:nth-of-type(1){
+  font-weight: 600;
+  border-bottom: 2px solid rgb(187, 187, 187);
+}
+.table1 tr td:nth-of-type(1){
+  text-align: center;
+  
+}
+
+.table1 tr td:nth-of-type(7){
+  text-align: center;
+  padding-left: 20px;
+}
+
+.table1 tr td:nth-of-type(8){
+  text-align: center;
+}
+
+
+.table1 tr:nth-of-type(2){
+  color: #004499;
+  font-weight: 600;
+}
+
+.table1 tr:nth-of-type(3){
+  background-color: #FBFBFB;        
+}
+
+.table1 tr:nth-of-type(5){
+  background-color: #FBFBFB;
+}
+
+.table1 tr:nth-of-type(2)~tr  td:nth-of-type(1) p{
+  
+   margin: 0 auto;
+    color: #000000;
+    width: 60px;
+    height: 23px;
+    border-radius: 5px;
+    background: #E6E6E6;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.table1 tr:nth-of-type(2)  td:nth-of-type(1) p{
+  
+  background: #004499;
+  margin: 0 auto;
+  color: #ffffff;
+  width: 60px;
+  height: 23px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.zhichubiaoti{
+  margin-top: 20px;
+}
+
+
+
+
+.jilu{
+  margin-top: 5px;
+  width:100%;
+  border: none;
+  border-collapse: collapse;
+  padding: 0;
+  font-size: 15px;
+}
+
+footer{
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  background-color: #E6E6E6;
+}

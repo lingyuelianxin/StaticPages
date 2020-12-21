@@ -1,0 +1,111 @@
+/* 头部设置 */
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+/* 消除浮动影响 */
+.clear::before,
+.clear::after{
+  display: table;
+  content: "";
+}
+.clear::after{
+  clear: both;
+}
+main{
+ width: 1200px;
+  height: 750px; 
+  margin: 0 auto;
+}
+.biao{
+  width: 1200px;
+  height: 50px;
+
+  margin: 0 auto;
+}
+table{
+  width: 1200px;
+  margin-top: 20px;
+  border-bottom: 1px solid black;
+  
+}
+table tr{
+  width:1200px;
+  height: 50px;
+  line-height: 50px;
+ 
+}
+.second-line tr td:first-child{
+  width: 200px;
+}
+.second-line tr td:first-child span:nth-child(2){
+  font-weight: bold;
+}
+.second-line tr td:first-child span:nth-child(3){
+  font-size: 15px;
+  color: #B6B6B6;
+}
+.second-line tr td:nth-child(2) button{
+  border: 1px solid #C9DCC9;
+  background: #F4F8F4;
+  color: #77A877;
+  margin-left: 20px;
+}
+.third-line tr td{
+ width: 180px;
+}
+.third-line tr td:first-child{
+  width: 280px;
+  vertical-align: middle;
+}
+.third-line tr td:first-child span{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.forth-line tr td:first-child{
+  width: 200px;
+}
+.forth-line tr td:first-child span:nth-child(2){
+  font-weight: bold;
+}
+.forth-line tr td:first-child span:nth-child(3){
+  font-size: 15px;
+  color: #B6B6B6;
+}
+.forth-line tr td:nth-child(2) button{
+  border: 1px solid #E6E6E6;
+  background: #F6F6F6;
+  color: #666666;
+  margin-left: 20px;
+}
+table img{
+  display: inline-block;
+  width: 100px;
+  height: 150px;
+}
+.balance{
+  width: 1200px;
+  height: 70px;
+  margin-top: 30px;
+  background: #EEEEEE;
+}
+.balance div{
+  float: left;
+  height: 70px;
+  width: 300px;
+  line-height: 70px;
+}
+.balance a{
+  text-decoration: none;
+  color: #fff;
+}
+.balance button{
+  height: 70px;
+  width: 120px;
+  float: right;
+  background: #8C222C;
+  font-size: 30px;
+  color: #fff;
+}

@@ -1,0 +1,48 @@
+main {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+main textarea {
+  padding: 10px;
+  width: 600px;
+  
+  resize: none;
+}
+main h1,
+main p {
+  margin: 20px 0;
+
+  color: #333333;
+}
+main div div {
+  display: inline-block;
+  border: 1px solid grey;
+  margin: 10px 0;
+  width: 98px;
+  height: 26px;
+  
+  text-align: center;
+  line-height: 26px;
+}
+main div span { 
+  margin-left: 20px;
+
+  color: gray;
+  font-size: 12px;
+}
+main div p {
+  display: inline-block;
+}
+main div button{
+  border: none;
+  margin-right: 20px;
+  width: 120px;
+  height: 36px;
+
+  font-size: 18px;
+}
+main div button:first-child{
+  background-color: rgb(140, 34, 44);
+  color: white;
+}

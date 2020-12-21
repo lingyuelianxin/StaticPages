@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 99%;
+  height: 600px;
+ 
+}
+
+
+/* 头像部分 */
+.touxiang{
+  width: 100%;
+  height: 110px;
+  overflow: hidden;
+}
+
+.touxiang div{
+  width: 15%;
+  height: 105px;
+ 
+  float: left;
+  margin-right: 5px;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.touxiang div img{
+  width: 99%;
+  height: 99%;
+  
+}
+.touxiang p:nth-of-type(1){
+  margin-top: 40px;
+
+}
+.touxiang p{
+  line-height: 22px;
+
+}
+
+.touxiang  p img{
+  vertical-align:middle;
+  padding: 5px;
+  padding-top: 0px;
+ }
+
+ .touxiang p:nth-of-type(3){
+   position: relative;
+   left: 3px;
+}
+
+.touxiang p span{
+  padding-left: 5px;
+  color: #4FB3EB;
+}
+
+
+
+/*交易提醒 */
+.jiaoti{
+  margin-top: 15px;
+  width: 100%;
+  height: 110px;
+  border: 1px solid rgb(149, 149, 150);
+
+}
+
+.jiaoti div{
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid rgb(125, 125, 126);
+ 
+}
+.jiaoti div h1{
+  
+  width: 99.8%;
+  height: 38px;
+  margin: 0 auto;
+  line-height: 40px;
+  background-color: #E2EDFB;
+  margin-top: 2px;
+  text-indent: 10px;
+  font-size: 15px;
+  color: rgb(58, 57, 57);
+
+}
+
+.jiaoti p{
+
+  margin-top: 2px;
+  text-indent: 10px;
+  font-size: 12px;
+  color: rgb(37, 36, 36);
+  line-height: 30px;
+
+}
+
+.jiaoti p span{
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+#shuzi{
+  color:#FF0000;
+}
+.zijin{
+  height: 150px;
+}
+
+.changyong p{
+  word-spacing: 10px;
+  color: #004499;
+}
+
+
+/* 提醒 */
+.tixing{
+  height: 150px;
+}
+
+.tixing ul:nth-of-type(1){
+ float: left;
+ margin-right: 300px;
+ margin-left: 100px;
+
+}
+
+.tixing ul:nth-of-type(2){
+  float: left;
+ 
+ }
+
+.tixing ul li{
+  list-style-type:disc;
+  margin-left: 20px;
+  color: #004499;
+  font-size: 12px;
+  margin-bottom: 10px;
+  
+}

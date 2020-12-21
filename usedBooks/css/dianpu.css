@@ -1,0 +1,119 @@
+.clear::before,
+.clear::after{
+  display: table;
+  content: "";
+}
+.clear::after{
+  clear: both;
+}
+li{ 
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #2A2A2A;
+}
+main{
+  height: 550px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* main右边部分 */
+.main-left{
+  width: 168px;
+  height:467px;
+  border-right: 1px solid black;
+}
+h3{
+  line-height: 37px;
+}
+/* 左边内容部分 */
+
+.left-one{
+  height: 37px;
+  position: relative;
+}
+.left-one img{
+  float: right;
+  margin-top:10px;
+}
+.left-text{
+  position: absolute;
+  top: 37;
+  left: 10px;
+  display: none;
+ } 
+.left-one:hover img{
+  transform: rotate(180deg);
+}
+.left-one:hover .left-text{
+  display: block;
+}
+
+.left-one:hover~*{
+  transform: translateY(37px)
+}
+
+
+
+/* main的右边部分 */
+.main-right{
+  width: 800px;
+  float: right;
+}
+/* 右上部分的h1和p */
+.main-right h1{
+  font-size: 24px;
+  color: #92A5CA;
+}
+.main-right a{
+  text-decoration: none;
+  color: #2A2A2A;
+}
+.wenzi{
+  margin-top:40px;
+  line-height: 25PX;
+}
+.wenzi-but{
+  margin-top:40px;
+  font-size: 12px;
+  color: #bbbbbb;
+}
+/* 中间的图片部分 */
+.center-left{
+  background: url(../img/download.png) no-repeat center;
+  background-size: cover;
+}
+.center-center{
+  background: url(../img/download2.png) no-repeat center;
+  background-size: cover;
+}
+.center-right{
+  background: url(../img/download1.png) no-repeat center;
+  background-size: cover;
+}
+.text-ce{
+  margin-top:140px;
+}
+
+.center-right,.center-center,.center-left{
+  width: 210px;
+  height: 290px;
+  text-align: center;
+  margin-top:50px;
+}
+.center-right,.center-center,.center-left{
+  display: inline-block;
+  margin:0 50px;
+  margin-right: 0;
+}
+.right-center button{
+  width: 140px;
+  height: 40px;
+  font: 14px ;
+  background: #365899;
+  color: #ffffff;
+  border: none;
+  margin-top: 30px;
+}

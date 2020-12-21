@@ -1,0 +1,148 @@
+*{
+  margin:0;
+  padding:0;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.clear::before,
+.clear::after{
+  display: table;
+  content: "";
+}
+.clear::after{
+  clear: both;
+}
+.gaoji{
+  height: 830px;
+  width: 1000px;
+  /* background: rgb(224, 199, 199); */
+  margin: 0 auto;
+  border-top:1px solid #666;
+}
+
+form{
+  font-family: "宋体";
+  font-size: 12px;
+  color: #666;
+  width: 420px;
+  height: 700px;
+  padding-top: 50px;
+  margin: 0 auto;
+
+}
+.one div,.two div,.three div,.four div,.five div,.six div,.seven div,
+.eight div,.nine div,.ten div,.one-o div{
+  display: inline-block;
+}
+.center input{
+  width: 300px;
+  height: 30px;
+  /* background: rgb(142, 199, 201); */
+
+}
+.center{
+  line-height: 50px
+}
+.one input{
+  width: 16px;
+  height: 16px; 
+}
+.center{
+  width: 710px;
+  height: 250px;
+}
+.text{
+  width: 100px;
+  height: 30px;
+  text-align: right;
+}
+select{
+  height: 30px;
+  width: 80px;
+}
+
+.chose{
+  height: 30px;
+  width: 80px;
+  border: 1px solid rgb(175, 169, 169);
+  background: rgb(242, 247, 244);
+  position: relative;
+}
+ .eight .text,.eight .chose{
+  vertical-align: middle;
+} 
+.eight .text{
+  line-height: 30px;
+}
+.eight-last{
+  height: 300px;
+  width: 600px;
+  background: rgb(222, 231, 231);
+  position: absolute;
+  top: 30px;
+  left: -80px;
+  border: 1px solid rgb(136, 121, 121);
+  visibility: hidden;
+}
+.eight-last ul{
+  padding: 0 30px; 
+  float: left; 
+}
+.eight-last ul li:nth-child(1){
+  font-size: 16px;
+}
+.eight-last ul li{
+  margin: 5px 0px;
+}
+.eight-last ul a:hover{
+  color: black;
+  font-size: 14px;
+}
+.chose:hover .eight-last{
+  visibility: visible;
+}
+
+
+.nine input{
+  width: 80px;
+  height: 30px;
+}
+
+.one-o input{
+  width: 80px;
+  height: 30px;
+}
+.eight{
+  margin-top: 55px;
+}
+.one-t{
+  text-align: center;
+
+}
+.one-t button{
+  width: 170px;
+  height: 36px;
+  background: rgb(180, 43, 43);
+  color: aliceblue;
+  border: none;
+  font-size: 18px;
+}
+.one-t button:hover{
+  background: rgb(167, 12, 12);
+}
+.nine,.ten,.one-o,.one-t{
+  margin-top:30px;}
+.ten select{
+  border: none;
+  width: 83px;
+  height: 30px;
+}
+select{
+  color: #666;
+  font-family: "宋体";
+  font-size: 12px;
+}

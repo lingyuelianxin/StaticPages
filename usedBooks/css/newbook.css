@@ -1,0 +1,641 @@
+/* 清除浏览器样式 */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 清除浮动影响 */
+.clear::before,
+.clear::after{
+  display: table;
+  content: '';
+}
+.clear::after{
+  clear: both;
+}
+
+
+/* 商品信息sec01 */
+.sec01{
+  width: 1200px;
+  height: 435px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
+
+/* 图书照片 */
+.sec01-left{
+  width: 300px;
+  height: 372px;
+  float: left;
+
+}
+/* 大的图书照片 */
+.sec01-left-top{
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+.sec01-left-top img{
+  display: inline-block;
+  width: 300px;
+  height: auto;
+}
+/* 小图片 */
+.sec01-left ul{
+  list-style: none;
+  margin-top: 20px;
+}
+.sec01-left li{
+  float: left;
+  width: 46px;
+  height: 46px;
+  overflow: hidden;
+  margin-right: 17px;
+}
+.sec01-left li:nth-child(5){
+  float: left;
+  width: 46px;
+  height: 46px;
+  overflow: hidden;
+  margin-right: 0;
+}
+.sec01-left li img{
+  width: auto;
+  height: 46px;
+}
+
+/* 图书基本信息 */
+.sec01-center{
+  width: 620px;
+  height: 435px;
+  float: left;
+  margin: 0 38px;/* 间距 */
+
+}
+/* 图书基本信息上部分 */
+.sec01-center-top{
+  width: 620px;
+  height: 320px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* 书名 */
+.sec01-center-top p:nth-child(1){
+  color: #333333;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.sec01-center-top p:nth-child(2){
+  color: #333333;
+  font-size: 14px;
+  color: #a5806d;
+  margin: 6px 0;
+}
+
+
+/* 作者出版信息等 */
+.sec01-center-top-introduce{
+  height: 80px;
+  border:  1px solid  #e5e5e5;
+}
+.sec01-center-top-introduce ul:nth-child(1){
+  margin-left: 10px;
+}
+.sec01-center-top-introduce ul{
+  list-style: none;
+  font-size: 12px;
+  color: #333333;
+  float: left;
+  width: 200px;
+}
+.sec01-center-top-introduce li{
+  margin: 8px 0;
+}
+/* 售价模块 */
+.sec01-center-top-price{
+  width: 620px;
+  height: 142px;
+  background: #f3f0e9;
+  padding-top: 5px;
+  position: relative;
+  margin-top: 10px;
+  
+}
+/* new字的设置 */
+.pride-new{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 142px;
+  height: 142px;
+  overflow: hidden;
+}
+.pride-new img{
+  width: 100%;
+  height: auto;
+}
+.sec01-center-top-price-01{
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+}
+/* 售价模块左部分共同点 */
+.sec01-center-top-price-span01{
+  color: #999999;
+  font-size: 12px;
+  padding: 0 19px 0 10px;
+}
+.sec01-center-top-price-span02{
+    font-size: 18px;
+    color: #8c222c;
+    font-weight: bolder;
+}
+.sec01-center-top-price-span03{
+  text-decoration: line-through;
+  font-size: 14px;
+  color: #333333;
+}
+.sec01-center-top-price-span04{
+  font-size: 12px;
+  color: #bf7f5f;
+  font-weight: bolder;
+}
+/* 满包邮 */
+.sec01-center-top-price-02{
+  height: 50px;
+  cursor: pointer;
+  line-height: 50px;
+}
+/* 包邮 */
+.sec01-center-top-price-02 span:nth-child(2){
+  border: 1px solid #bf7f5f;
+  padding: 2px 5px;
+  text-align: center;
+  color: #bf7f5f;
+  font-size: 12px;
+}
+/* 满99快递包邮 */
+.sec01-center-top-price-02 span:nth-child(3){
+  padding: 2px 5px;
+  color: #333333;
+  font-size: 12px;
+}
+/* 免邮区 */
+.freight-price{
+  color: #333333;
+  font-size: 12px;
+}
+/* 下拉框选区间 */
+.sec01-center-top select{
+  border: none;
+}
+/* 购买按钮部分 */
+.sec01-center-bottom01{
+  height: 30px;
+  line-height: 30px;
+}
+.sec01-center-bottom01 span:nth-child(2){
+  color: #333333;
+  font-size: 12px;
+}
+/* 加减部分 */
+.sec01-center-bottom02-span01{
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border: 1px solid #999999;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #999999;
+  text-align: center;
+  cursor: pointer;
+}
+/* 数量 */
+.sec01-center-bottom02-span02{
+  display: inline-block;
+  width: 40px;
+  height: 28px;
+  border: 1px solid #999999;
+  font-size: 20px;
+  color: #333333;
+  text-align: center;
+}
+/* 加购物车 收藏 */
+.buy-group{
+  height: 40px;
+  margin-top: 15px;
+}
+/* 立即购买 */
+.buy-now{
+  display: inline-block;
+  width: 152px;
+  height: 38px;
+  border:  1px solid #8c222c;
+  text-align: center;
+  line-height: 38px;
+  background: #f8f7f3;
+  font-size: 14px;
+  cursor: pointer;
+  float: left;
+  border-radius: 2px;
+}
+.buy-now a {
+  text-decoration: none;
+  color: #8c222c;
+}
+/* 加入购物车 */
+.add-cart{
+  width: 152px;
+  height: 38px;
+  border:  1px solid #8c222c;
+  text-align: center;
+  line-height: 38px;
+  background: #8c222c;
+  font-size: 14px;
+  cursor: pointer;
+  float: left;
+  border-radius: 2px;
+  margin-left: 20px;
+}
+.add-cart a {
+  text-decoration: none;
+  color: white;
+} 
+.add-cart span:nth-child(1){
+  font-size: 20px;
+}
+.share{
+  float: right;
+  color: #999999;
+}
+.share span{
+  margin-left: 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* 新书广场介绍 */
+.sec01-right{
+  width: 200px;
+  height: 435px;
+  float: left;
+  border:  1px solid #e5e5e5;
+  border-top:  2px solid #B5AA9A;
+}
+/* 图片与横线 */
+.sec01-right-img{
+  padding-top: 12px;
+  margin: 0 auto;
+  position: relative;
+  height: 26px;
+}
+/* 左横线 */
+.line-left{
+  float: left;
+  border-bottom: 1px solid #e5e5e5;
+  width: 40px;
+  height: 13px;
+  margin-left: 10px;
+}
+/* 右横线 */
+.line-right{
+  float: right;
+  width: 40px;
+  height: 13px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-right: 10px;
+}
+/* 八年老店图片 */
+.sec01-right-img img{
+  width: 81px;
+  height: auto;
+  float: left;
+  position: absolute;
+  left: 50%;
+  margin-left: -41px;
+}
+/* 等级 */
+.sec01-right-top{
+  width: 174px;
+  height: 105px;
+  padding-bottom: 10px;
+  margin: 12px 10px 0 10px;
+}
+.sec01-right-top p:nth-child(1){
+  color: #333333;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 8px 0 8px 0;
+}
+.sec01-right-top p{
+  padding: 2px 0 2px 0;
+}
+/* 店铺等级 */
+.sec01-right-store-level{
+  font-size: 12px;
+  color: #999999;
+  margin-right: 12px;
+}
+/* 砖石 */
+.icon-zhuanshi{
+  color: #8fb5fd;
+}
+.icon-renzheng,
+.icon-gongshangzhuce{
+  color: #999999;
+  font-size: 18px;
+}
+/* 店铺评价 */
+.sec01-right-center{
+  width: 180px;
+  height: 94px;
+  margin: 0;
+  padding: 12px 10px 12px 10px;
+  background-color: #fafafa;
+  margin-top: 20px;
+}
+.sec01-right-center p{
+  padding: 1px 0 1px 0;
+}
+.sec01-right-store-level-black{
+  font-size: 12px;
+  color: #333333;
+  margin-right: 12px;
+}
+.sec01-right-store-level-red{
+  font-size: 12px;
+  color: #8c222c;
+
+}
+/* 联系地址等 */
+.sec01-right-buttom{
+  width: 180px;
+  height: 108px;
+  margin: 0;
+  padding: 12px 10px 12px 10px;
+}
+/* 孔夫子新书广场a标签 */
+.sec01-right-store-newbook{
+  text-decoration: none;
+  color: #365899;
+  font-size: 12px;
+}
+.sec01-right-store-newbook:hover{
+  text-decoration: none;
+  color: #8c222c;
+  font-size: 12px;
+}
+/* 在线交谈 */
+.sec01-right-store-level-button{
+  width: 70px;
+  height: 16px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 2px;
+  background-color: #f4f8f4;
+  border: 1px solid #c9dcc9;
+  color: #77a877;
+  font-size: 12px;
+  text-align: center;
+}
+.sec01-right-store-level-button:hover{
+  background-color: #d9f3d9;
+}
+/* 进店逛逛 收藏店铺*/
+.button01,
+.button02{
+  width: 80px;
+  height: 30px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 2px;
+  background-color: #f6f7f6;
+  border: 1px solid #e5e5e5;
+  color: #333;
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+/* 进店逛逛 */
+.button01:hover{
+  background-color: #ffffff;
+  border: 1px solid #B5AA9A;
+  color: #B5AA9A;
+}
+/* 收藏店铺 */
+.button02:hover{
+  background-color: #ffffff;
+  border: 1px solid #8c222c;
+  color: #8c222c;
+}
+
+
+
+
+/* 商品详情 商品评价部分 */
+.sec02{
+  width: 1198px;
+  height: 2300px;
+  margin: 20px auto 0;
+  position: relative;
+}
+.group {
+  width: 200px;
+  float: left;
+}
+
+input[type=radio] {
+  display: none;
+}
+/* label默认样式 */
+.group label {
+  display: block;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: #f7f7f6;
+  color: #333333;
+  font-size: 14px;
+}
+/* 选中单选框被选中的元素的下一个兄弟元素 label */
+input:checked+label { 
+  background: #fff;
+  color: #8c222c;
+  border-top: 1px solid #8c222c;
+  font-weight: bolder;
+}
+
+
+
+/* 内容部分默认 */
+.tab-body {
+  display: none;
+}
+/* 内容部分选中 */
+input:checked~.tab-body { /* 选中单选框被选中的兄弟元素 .tab-body */
+  display: block;
+}
+/* 商品详情 */
+.tab-body01 {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  background: #f7f7f6;
+}
+/* titile */
+.tab-body01 .title{
+  font-size: 16px;
+  font-weight: bolder;
+  color: #333333;
+  margin: 30px 0 30px 20px;
+}
+/* 描述 */
+.tab-body01 .product-description{
+  font-size: 13px;
+  color: #333333;
+  margin: 0 220px 30px 20px;
+}
+/* 商品图片 */
+.tab-body01-img{
+text-align: center;
+padding-top: 20px; 
+}
+.tab-body01-img p{
+  color: #333333;
+  font-size: 16px;
+  padding: 10px 0 10px 0;
+}
+.tab-body01 img{
+  width: 600px;
+  height: 400px;
+}
+
+
+
+
+/* 商品评价 */
+.tab-body02{
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 1198px;
+  background: #f7f7f6;
+  border-bottom: 1px solid #e5e5e5;
+  /* overflow: hidden; */
+}
+.tab-body02-comment{
+  width: 100%;
+  height: 100px;
+  border: 1px solid #e5e5e5;
+  border-bottom: none;
+}
+/* 评价左部分 */
+.tab-body02-comment-left{
+  width: 300px;
+  float: left;
+  margin-left: 20px;
+  padding-top: 34px;
+}
+.tab-body02-comment-left p:nth-child(1){
+  color: #333333;
+  font-size: 12px;
+}
+.tab-body02-comment-left p:nth-child(2){
+  color: #666666;
+  font-size: 12px;
+}
+/* 评价中间部分好评 */
+.tab-body02-comment-center{
+  width: 200px;
+  float: left;
+  padding-top: 34px;
+}
+.tab-body02-comment-center span:nth-child(1){
+  color: #8c222c;
+  font-weight: bolder;
+  padding-right: 6px;
+}
+.tab-body02-comment-center span:nth-child(2){
+  color: #666666;
+  font-size: 12px;
+}
+.tab-body02-comment-center p:nth-child(3){
+  color: #666666;
+  font-size: 12px;
+}
+/* 评价人 */
+.tab-body02-comment-right{
+  width: 200px;
+  float: right;
+  padding-top: 34px;
+}
+.tab-body02-comment-right p:nth-child(1){
+  color: #666666;
+  font-size: 12px;
+}
+.icon-xingxuanzhong{
+  color: rgb(243, 243, 43);
+}
+/* 翻页部分 */
+.tab-body02-flip-over{
+  width: 1198px;
+  border-right: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+}
+.tab-body02-flip-over-right{
+width: 400px;
+height: 45px;
+float: right;
+cursor: pointer;
+color: #333333;
+font-size: 12px;
+margin-top: 20px;
+
+}
+.over-right-front:hover{
+color: #8c222c;
+font-weight: bold;
+}
+.over-right-back:hover{
+  color: #8c222c;
+  font-weight: bold;
+  }
+/* 自适应 */
+.footer-warp{
+  width: 100%;
+  background: #f7f7f6;/* 自适应块颜色 */
+  margin-top: 0;/* 与主体内容的距离 */
+ }
+
+/* 固定导航栏 */
+.fixed-box {
+  position: fixed;
+  right: 0px;
+  bottom: 150px;
+  border-radius: 10%;
+  width: 50px;
+  height: 50px;
+
+  background-color: #dddddd;
+  text-align: center;
+}
+.fixed-box a {
+  color: #555555;
+  text-decoration: none;
+  line-height: 50px;
+}
+.fixed-box:hover {
+  background-color: #666;
+}
+.fixed-box:hover a {
+  color: #dddddd;
+}
+.fixed-box-2{
+  bottom: 210px;
+}

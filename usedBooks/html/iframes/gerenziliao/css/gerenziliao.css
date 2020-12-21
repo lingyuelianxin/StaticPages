@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.clear:before,
+.clear:after {
+  display: table;
+  content: '';
+}
+.personal_date{
+  font-family: "宋体";
+  font-size:12px;
+
+}
+.clear:after {
+  clear: both;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.ge-top {
+  width: 800px;
+  height: 35px;
+  border-bottom : 1px solid rgb(117, 99, 99);
+}
+.ge-center {
+  width: 800px;
+  height: 640px;
+  border: 1px solid black;
+  margin:15px 0px 0px;
+  padding: 20px 0px 30px
+}
+ul li:nth-child(1){
+  width: 130px;
+  height: 22px;
+  text-align: right;
+}
+.center-first li{
+  display: inline-block;
+}
+.center-first li:nth-child(3){
+  float: right;
+  right: 0;
+}
+.center-second li{
+  float: left;
+}
+.center-third li{
+  display: inline-block;
+}
+.center-fourth li{
+  display: inline-block;
+}
+.center-fourth input{
+  height: 24px;
+  width: 140px;
+}
+/* 生日 */
+.center-fifth li{
+  display: inline-block;
+}
+.center-fifth select:nth-child(1) {
+  width: 80px;
+  height: 22px;
+}
+.center-fifth select:nth-child(2),.center-fifth select:nth-child(3){
+  width: 50px;
+  height: 22px;
+}
+/* 所在地 */
+.center-sixth li{
+  display: inline-block;
+}
+.center-sixth select{
+  width: 80px;
+  height: 22px;
+}
+.center-seventh li{
+  float: left;
+}
+.center-seventh textarea{
+  height: 62px;
+  width: 652px;
+}
+.center-eighth li{
+  float: left;
+}
+.center-eighth textarea{
+  height: 77px;
+  width: 652px;
+} 
+.center-but{
+  text-align: center;
+}
+.center-but li {
+  
+  line-height: 35px;
+  display: inline-block;
+}
+.center-but li a{
+  font-size: 16;
+  color: antiquewhite;
+}
+ .center-but li:nth-child(1) button{
+  background: rgb(185, 155, 22);}
+  .center-but li:nth-child(1) button:hover{
+  background: rgba(236, 196, 16, 0.473);
+}
+.center-but li:nth-child(2) button{
+  background: rgb(117, 114, 101);}
+.center-but button{
+  height: 35px;
+  width: 110px;
+  border: none;
+}
+.ge-center ul{
+  margin-bottom: 20px;
+}
+
+.ge-top a:hover,.center-first a:hover{
+  color: rgb(124, 15, 15);
+}

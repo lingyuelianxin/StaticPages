@@ -1,0 +1,541 @@
+/* 头部设置 */
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+/* 消除浮动影响 */
+.clear::before,
+.clear::after{
+  display: table;
+  content: "";
+}
+.clear::after{
+  clear: both;
+}
+/* 清除无序列表的样式 */
+ul li{
+  list-style: none;
+}
+/* 清除a标签的下划线  并且把字体颜色改为#365899 */
+a{
+  text-decoration: none;
+  color: #365899;
+}
+/* section_one的总宽高  页面居中显示 */
+.section_one{
+  width: 1000px;
+  height: 360px;
+  margin: 0 auto;
+}
+/* section_one 下方的h2标签  字体加粗  字体大小为20 */
+.section_one h2{
+  font-size: 20px;
+  font-weight: 700px;
+}
+.section_one_zong{
+  height: 280px;
+}
+.section_one_zong_neibu{
+  position: relative;
+}
+.tupianzhanshi{
+  position: absolute;
+  left: 370px;
+  width: 250px;
+  height: 300px;
+  display: none;
+  background: white;
+  border: 1px solid #999999;
+}
+.tupianzhanshi img{
+  width: 190px;
+  height: 300px;
+  margin: 0 30px;
+}
+/* section_one_zong的左边部分 */
+.section_one_zong_left{
+  width: 800px;
+  height: 280px;
+  float: left;
+}/* section_one_zong的右边部分 */
+.section_one_zong_right{
+  width: 200px;
+  height: 260px;
+  float: left;
+}
+.section_one_zong_right a:hover{
+  color: #8C222C;
+}
+/* section_one_zong的左边部分的左边部分 */
+.section_one_zong_left_left{
+  width: 150px;
+  height: 280px;
+  float: left;
+}
+/* section_one_zong的左边部分的右边部分 */
+.section_one_zong_left_right{
+  width: 650px;
+  height: 280px;
+  float: left;
+  font-size: 12px;
+}
+.section_one_zong_left_right a:hover{
+  color: #8C222C;
+}
+/* section_one_zong的左边部分的左边部分的上部分 */
+.section_one_zong_left_left_top{
+  width: 150px;
+  height: 220px;
+  margin: 0 20px;
+}
+/* section_one_zong的左边部分的左边部分的上部分的图片 */
+.section_one_zong_left_left_top img{
+  width: 110px;
+  margin: 10px 0;
+}/* section_one_zong的左边部分的左边部分的上部分的图标 */
+.section_one .score{
+  width: 110px;
+  height: 20px;
+  }
+  /* section_one_zong的左边部分的左边部分的上部分的图标的左边部分 */
+.section_one .score_left{
+  width: 20px;
+  height: 20px;
+  border-radius: 10%;
+  background:#575957;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  float: left;
+}
+/* section_one_zong的左边部分的左边部分的上部分的图标的右边部分 */
+.section_one .score_right{
+  width: 88px;
+  height: 16px;
+  border-radius: 5%;
+  border: 1px solid #BBBCBB;
+  border-left: none;
+  float: left;
+}
+.score_right img{
+  width: 11px;
+  height: 11px;
+  float: left;
+  margin: 2.5px 0;
+}/* section_one_zong的左边部分的左边部分的下部分 */
+.section_one_zong_left_left_bottom{
+  width: 150px;
+  height: 60px;
+}
+.section_one_zong_left_left_bottom h6{
+  font-size: 12px;
+  color: #999999;
+  width: 24px;
+  height: 22px;
+  float: left;
+}
+/* section_one_zong的左边部分的左边部分的下部分的图标部分 */
+.fxtb{
+  width: 140px;
+  height: 22px;
+  float: left;
+}
+.fxtb div{
+  margin-left: 10px;
+}
+.fxtb img{
+  margin: 3px 4.5px;
+}
+.fxtb span{
+  margin-left: 7px;
+  line-height: 22px;
+}
+/* 图标原本的设置以及悬停效果 */
+.fxtb a:nth-child(1) div{
+  background: #84AD84;
+  width: 25px;
+  height: 22px;
+  float: left;
+}
+.fxtb a:nth-child(1) div:hover{
+  opacity: 0.6;
+}
+.fxtb a:nth-child(2) div{
+  background: #BA5C65;
+  width: 25px;
+  height: 22px;
+  float: left;
+}
+.fxtb a:nth-child(2) div:hover{
+  opacity: 0.6;
+}
+.fxtb a:nth-child(3) div{
+  background: #55ABD1;
+  width: 25px;
+  height: 22px;
+  float: left;
+}
+.fxtb a:nth-child(3) div:hover{
+  opacity: 0.6;
+}
+.fxtb a:nth-child(4) div{
+  background: #84AD84;
+  width: 25px;
+  height: 22px;
+  font-size: 11px;
+  float: left;
+  color: white;
+}
+.fxtb a:nth-child(4) div:hover{
+  opacity: 0.6;
+}
+/* section_one_zong的左边部分的右边部分对相关标签的css设置 */
+.section_one_zong_left_right p{
+  margin: 10px 0;
+}
+.section_one_zong_left_right .qianzhui{
+  color: #666666;
+}
+.section_one_zong_left_right .houzhui{
+  color: #333333;
+}
+/* section_one_zong的左边部分的右边部分的左边部分 */
+.section_one_zong_left_right_left{
+  width: 315px;
+  float: left;
+  height: 166px;
+  margin-left: 20px;
+}
+/* section_one_zong的左边部分的右边部分的右边部分 */
+.section_one_zong_left_right_right{
+  width: 315px;
+  float: left;
+  height: 166px;
+}
+/* section_one_zong的左边部分的右边部分的下边部分 */
+.section_one_zong_left_right_bottom{
+  float: left;
+  height: 114;
+  width: 630px;
+  margin-left: 20px;
+  font-size: 12px;
+  color: 333333;
+}
+/* 对section_one_zong的右边部分的相关标签进行的css设置 */
+.section_one_zong_right .right_br{
+  width: 200px;
+  height: 30px;
+  border-bottom: 1px solid #999999;
+  margin-left: 20px;
+}
+.section_one_zong_right span{
+  color: #333333;
+  font-size: 14px;
+  margin-top: 7px;
+}
+.section_one_zong_right table{
+  border:none;
+  font-size: 12px;
+  margin-left: 20px;
+}
+.section_one_zong_right tr{
+height: 40px;
+}
+.section_one_zong_right table td{
+width: 110px;;
+}
+/* section_two 宽度设置 页面居中*/
+.section_two{
+  width: 1000px;
+  margin: 0 auto;
+}
+/* section_two的上边部分 */
+.section_two_top{
+  width: 1000px;
+  height: 40px;
+  background:#F8F7F3;
+}
+/* section_two的上边部分的相关css设置 */
+.section_two_top ul li a:hover{
+  color: #BF7F5F;
+}
+.section_two_top ul li{
+  font-size: 12px;
+  display: inline-block;
+  line-height: 40px;
+  height: 40px;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+.section_two_top ul li:nth-child(1){
+  font-size: 12px;
+  color: #333333;
+}
+.section_two_top ul li:nth-child(2){
+  font-size: 12px;
+  color: #666666;
+}
+.section_two_top ul li a{
+  color: #666666;
+}
+.section_two_top ul li:nth-child(3) a{
+  color: #bf7f5f;
+}
+.section_two_top ul li:nth-child(8) a{
+  vertical-align: middle;
+}
+.section_two_top li:nth-child(8) input{
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  background: #F8F7F3;
+}
+/* section_two的内容部分的高度 */
+.section_two_main{
+  height: 700px;
+}
+/* section_two的内容部分的相关设置 */
+.section_two_main_zong{
+  width: 1000px;
+  height: 120px;
+  border-bottom: 1px solid #999999;
+}
+.section_two_main_zong_neibu{
+  width: 960px;
+  height: 81px;
+  padding: 20px;
+}
+/* 图片部分 */
+.section_two_main_zong_neibu_tupian{
+  width: 80px;
+  height: 80px;
+  border:1px solid #e5E5E5;
+  float: left;
+  margin-right: 20px;
+}
+.section_two_main_zong_neibu_tupian:hover+.tupianzhanshi{
+  display: block;
+}
+.section_two_main_zong_neibu_tupian img{
+  width: 60px;
+  height: 80px;
+  margin: 0 10px;
+}
+/* 标题部分 */
+.section_two_main_zong_neibu_biaoti{
+  width: 185px;
+  height: 80px;
+  float: left;
+}
+.section_two_main_zong_neibu_biaoti a:hover{
+  color: #8C222C;
+}
+.section_two_main_zong_neibu_biaoti h2{
+  width: 185px;
+  height: 80px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+/* 印刷部分 */
+.section_two_main_zong_neibu_yinshua{
+  width: 85px;
+  height: 80px;
+  float: left;
+  margin-left: 40px;
+  font-size: 12px;
+  color: #333333;
+}
+/* 全新 */
+.section_two_main_zong_neibu_quanxin{
+  width: 70px;
+  height: 80px;
+  float: left;
+  margin-left: 40px;
+  font-size: 12px;
+  color:#BF7F5F;
+  font-weight: 900;
+}
+/* 地址部分 */
+.section_two_main_zong_neibu_dizhi{
+  width: 150px;
+  height: 80px;
+  margin-left: 30px;
+  font-size: 12px;
+  float: left;
+}
+.section_two_main_zong_neibu_dizhi a span:hover{
+  color: #8C222C;
+}
+.section_two_main_zong_neibu_dizhi span{
+  color: #333333;
+}
+.section_two_main_zong_neibu_dizhi p{
+  color: #999999;
+}
+.section_two_main_zong_neibu_dizhi img{
+  vertical-align: middle;
+}
+/* 金额部分 */
+.section_two_main_zong_neibu_jine{
+  width: 150px;
+  height: 80px;
+  float: left;
+  text-align: center;
+}
+.section_two_main_zong_neibu_jine h3{
+  font-size: 16px;
+  color: #8c222c;
+}
+.section_two_main_zong_neibu_jine p{
+  font-size: 12px;
+  color: #999999;
+}
+/* 购物车部分 */
+.section_two_main_zong_neibu_gouwuche{
+  width: 98px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+  text-align: right;
+}
+.section_two_main_zong_neibu_gouwuche_top a input:hover{
+  background: #f8f2ef;
+  cursor:pointer 
+}
+.section_two_main_zong_neibu_gouwuche_bottom a input:hover{
+  background: #f8f7f3;
+  cursor:pointer 
+}
+.section_two_main_zong_neibu_gouwuche_top{
+  width: 98px;
+  height: 28px;
+}
+.section_two_main_zong_neibu_gouwuche_bottom{
+  width: 98px;
+  height: 28px;
+}
+.section_two_main_zong_neibu_gouwuche_top input{
+  width: 80px;
+  height: 26px;
+  color: #BF7F5F;
+  border: 1px solid #bf7f5f;
+  background: white;
+}
+.section_two_main_zong_neibu_gouwuche_bottom input{
+  width: 80px;
+  height: 26px;
+  color: #a9987f;
+  border:1px solid #a9987f;
+  margin-top: 10px;
+  background: white;
+}
+/* 下方切换按钮 */
+.section_two_main_zong_bottom1{
+  text-align: center;
+  margin-top: 50px;
+}
+.section_two_main_zong_bottom1 a:nth-child(1){
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #8C222C;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 10px;
+  color: white;
+}
+.section_two_main_zong_bottom1 a:nth-child(2){
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px; 
+}
+.section_two_main_zong_bottom1 a:nth-child(2):hover{
+  color:#8C222C;
+  background: #f3f0e9;
+}
+/* section_three的宽高设置 页面居中 */
+.section_three{
+  width: 1000px;
+  height: 650px;
+  margin: 0 auto;
+}
+/* 顶部指引部分相关设置 */
+.zhiyin{
+  margin-bottom: 25px;
+}
+.section_three h3{
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-top: 70px;
+}
+.section_three span{
+  color: #575957;
+}
+.section_three a{
+  font-size: 12px;
+}
+/* 内容图片大全部分 */
+.tupiandaquan{
+  float: left;
+}
+.tupiandaquan div:nth-child(1){
+  margin-left: 0;
+}
+.tupiandaquan div:nth-child(7){
+  margin-left: 0;
+}
+/* tuijian1的相关设置 */
+.tuijian1{
+  width: 140px;
+  height: 260px;
+  margin-left: 32px;
+  text-align: left;
+}
+.tuijian1 img{
+  width: 90px;
+  height: 140px;
+  margin: 0 25px;
+}
+.za{
+  width: 100px;
+  margin-left: 25px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.za a{
+  color: #333333;
+}
+.za:hover a{
+  color: #8C222C;
+  cursor: pointer;
+}
+.tuijian1{
+  float: left;
+}
+.tuijian1 p{
+  color: #999999;
+  font-size: 12px;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+.tuijian1 h6{
+  display: inline-block;
+  font-size: 16px;
+  color: #8C222C;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.tuijian1 span{
+  font-size: 12px;
+  color: #bbbbbb;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
