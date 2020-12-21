@@ -1,2 +1,2 @@
-居中  https://lingyuelianxin.github.io/StaticPages/居中.html
-导航  https://lingyuelianxin.github.io/StaticPages/导航.html
+超市收银系统  https://lingyuelianxin.github.io/StaticPages/supermarketCheckoutSystem/denglu.html
+旧书网  https://lingyuelianxin.github.io/StaticPages/usedBooks/index.html
